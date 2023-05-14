@@ -5,7 +5,7 @@ The project aims to develop a web application using Django, HTML, CSS, and JavaS
 
 Install Django: Make sure you have Python installed on your system. Open your command line interface and run the following command to install Django using pip:
 
-<h1>pip install Django</h1>
+<p>pip install Django</p>
 
 Navigate to the project directory: Change to the project directory you just created using the cd command. For example:
 
