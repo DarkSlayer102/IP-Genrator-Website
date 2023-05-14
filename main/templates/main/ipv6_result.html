@@ -1,0 +1,25 @@
+{% load static %}
+
+
+<link rel="stylesheet" href="{% static 'main/styles/ipv6_result.css' %}">
+
+{% block content %}
+<h1 class="header">Results</h1>
+
+<ul>
+    
+    {% for ip in ips %}
+    <li id="val">{{ ip }}</li>
+    {% endfor %}
+
+    <input type="submit" value="remove" class="remove">{{ips.delete}}
+</ul>
+
+{% endblock %}
+
+{% block js_block %}
+
+
+<script type="text/javascript" src="{% static 'main/js/ipv6.js' %}"></script>
+
+{% endblock %}

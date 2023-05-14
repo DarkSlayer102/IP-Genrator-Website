@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" typpe="text/css" href='{% static "main/styles/home.css" %}'>
+    <title>Random IP generator</title>
+</head>
+<body>
+    {% block content %}
+    <h1 class="header">Simplest IP Generator</h1>
+    <br>
+    <p class="discription">Discover the easiest online tool for generating random IP addresses, designed for everyone. With just a simple click on
+    either the IPv4 or IPv6 button, you will be taken to a user-friendly page where you can specify the desired quantity of
+    IP addresses you wish to generate. Once you've entered the number, this magical tool will swiftly generate and present
+    you with the precise amount of IP addresses you requested. Embrace the beauty of randomness and explore the world of IP
+    addresses effortlessly!</p>
+    <form action="/ipv4">
+
+        <input type="submit" value="IPv4" class="ipv4-button">
+
+    </form>
+    
+    <form action="/ipv6">
+    
+        <input type="submit" value="IPv6" class="ipv6-button">
+    
+    </form>
+    {% endblock %}
+</body>
+</html>

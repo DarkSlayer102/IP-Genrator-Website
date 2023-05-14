@@ -1,0 +1,84 @@
+
+*{
+    margin: 0pxx;
+    padding: 0px;
+}
+
+body{
+    background: #ff00cc;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #333399, #ff00cc);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.header{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 540px;
+}
+
+
+
+.discription{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:700px;
+    margin-left:440px;
+    border: 2px solid green;
+    color: white;
+    background-image: linear-gradient(295deg,
+                hsl(103deg 95% 60%) 0%,
+                hsl(147deg 100% 46%) 11%,
+                hsl(161deg 100% 43%) 22%,
+                hsl(177deg 100% 39%) 33%,
+                hsl(192deg 100% 44%) 44%,
+                hsl(202deg 100% 48%) 56%,
+                hsl(209deg 100% 49%) 67%,
+                hsl(214deg 100% 47%) 78%,
+                hsl(220deg 100% 41%) 89%,
+                hsl(242deg 74% 37%) 100%);
+}
+
+
+.ipv4-button{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #009FFF;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+        /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 630px;
+    
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.ipv6-button {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 830px;
+    position: relative;
+    top: -44px;
+    left: -49px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

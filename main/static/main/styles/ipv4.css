@@ -1,0 +1,116 @@
+* {
+    margin: 0pxx;
+    padding: 0px;
+}
+
+body {
+    background: #a8ff78;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #78ffd6, #a8ff78);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    font-size: 30px;
+    color: white;
+    border: 2px solid black;
+    background: #005AA7;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
+        /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, black, #005AA7);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.ipv6_link {
+    
+    font-size: 32px;
+    color: white;
+    border: 2px solid white;
+    background: #D3959B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BFE6BA, #D3959B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header{
+    margin-left: 590px;
+    position: relative;
+    top: -60px;
+    font-size: 45px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.discription1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 540px;
+    margin-top: -40px;
+    margin-left: 420px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: #FF0099;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #493240, #FF0099);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #493240, #FF0099);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+
+.how_to_use_ipv4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 420px;
+    width: 540px;
+    border: 2px solid black;
+    background: #FF0099;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+        /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.question{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 520px;
+}
+
+.user_input{
+    margin-left: 580px;
+    width: 189px;
+    height: 20px;
+}
+
+.submit {
+    width: 90px;
+    height: 40px;
+    font-family:fantasy;
+    color: black;
+    font-size:16px;
+    background: #654ea3;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eaafc8, #654ea3);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}

@@ -1,0 +1,36 @@
+{% load static %}
+
+
+<link rel="stylesheet" href="{% static 'main/styles/ipv4_result.css' %}">
+
+
+{% block content %}
+<h1 class="header">Results</h1>
+
+
+<ul>
+    
+    
+    {% for ip in ips %}
+        <li id="val">{{ ip }}</li>
+        
+    {% endfor %}
+    
+    <input type="submit" value="remove" class="remove">{{ips.delete}}
+
+    
+</ul>
+
+{% endblock %}
+
+
+{% block js_block %}
+
+<script>
+        const myJSVariable = "{{ ips|safe }}";
+        
+</script>
+
+<script type="text/javascript" src="{% static 'main/js/index.js' %}"></script>
+
+{% endblock %}

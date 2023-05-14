@@ -1,0 +1,64 @@
+* {
+    margin: 0pxx;
+    padding: 0px;
+}
+
+body {
+    background: #cd1237;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.header {
+    margin-left: 580px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    row-gap: 10px;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+li {
+    border: 1px solid darkgreen;
+    width: 140px;
+    background: #4B79A1;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #283E51, #4B79A1);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+
+.remove {
+    width: 90px;
+    height: 40px;
+    font-family: fantasy;
+    color: black;
+    font-size: 16px;
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}

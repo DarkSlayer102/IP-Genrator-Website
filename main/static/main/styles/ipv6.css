@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body {
+    background: #FFA17F;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #00223E, #FFA17F);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #00223E, #FFA17F);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    font-size: 30px;
+    color: white;
+    border: 2px solid black;
+    background: #B3FFAB;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ipv4_link {
+    font-size: 32px;
+    color: white;
+    border: 2px solid white;
+    background: #D3959B;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #BFE6BA, #D3959B);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+    margin-left: 640px;
+    position: relative;
+    top: -390px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.discription1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 540px;
+    margin-left: 420px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: #FF0099;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+
+.how_to_use_ipv6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 420px;
+    width: 540px;
+    border: 2px solid black;
+    background: #FF0099;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+.question {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 520px;
+    color: white;
+}
+
+.user_input {
+    margin-left: 580px;
+    width: 189px;
+    height: 20px;
+}
+
+.submit {
+    width: 90px;
+    height: 40px;
+    font-family: fantasy;
+    color: black;
+    font-size: 16px;
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
